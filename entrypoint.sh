@@ -2,7 +2,7 @@
 
 echo "============"
 
-pwd
+ls -lah /
 
 echo "Configure git user name..."
 git config --global user.name "${GITHUB_ACTOR}"
