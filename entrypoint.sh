@@ -2,8 +2,7 @@
 
 echo "============"
 
-who -H
-printenv
+mkdir -p /root/snap/docker/2915/
 
 echo "Configure git user name..."
 git config --global user.name "${GITHUB_ACTOR}"
