@@ -2,6 +2,7 @@
 
 echo "============"
 
+who -H
 printenv
 
 echo "Configure git user name..."
